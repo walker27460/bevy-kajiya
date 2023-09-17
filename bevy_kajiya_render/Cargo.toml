@@ -7,8 +7,8 @@ edition = "2021"
 
 [dependencies]
 bevy = { version = "0.8.0", default-features = false, features = ["bevy_winit", "filesystem_watcher"] }
-kajiya = { git = "https://github.com/EmbarkStudios/kajiya" }
-kajiya-asset-pipe = { git = "https://github.com/EmbarkStudios/kajiya", package = "kajiya-asset-pipe" }
+kajiya = { git = "https://github.com/EmbarkStudios/kajiya", version = "0.1" }
+kajiya-asset-pipe = { git = "https://github.com/EmbarkStudios/kajiya", version = "0.1",package = "kajiya-asset-pipe" }
 
 anyhow = "1.0"
 imgui = "0.7"
